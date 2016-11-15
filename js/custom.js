@@ -286,7 +286,7 @@ jQuery(function ($) { "use strict";
 
 	function initialize() {
 
-		var myLatLng = new google.maps.LatLng(22.333851, 91.812256);
+		var myLatLng = new google.maps.LatLng(45.0572678, 23.279535);
 
 		var roadAtlasStyles = [{
 			"featureType": "landscape",
@@ -366,7 +366,7 @@ jQuery(function ($) { "use strict";
 			navigationControl: false,
 			mapTypeControl: false,
 			scaleControl: false,
-			draggable: false,
+			draggable: true,
 			mapTypeControlOptions: {
 				mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'roadatlas']
 			}
